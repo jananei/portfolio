@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  
+}
+
+body{
+ font-family: sans-serif;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.bootstrap{
+  height: 80px;
+  width: 10px;
+  margin: 1px;
+}
+
+.image{
+
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius:10%;
+  display:inline-block;
+  padding:10px;
+  margin-top: 50px;
+  height:70px;
+  width:70px
+}
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 8px;
+  /* margin: 1px; */
+}
+
+.App-header {
+  background-color: #222;
+  height: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  color: white;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.card{
+  margin-bottom: 15px;
+}
+
+.active{
+  background-color: #666;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+.screen {
+  display: none;
+}
+}
+ul {
+  margin-bottom: 5px;
+}
+  
+.mobileView {
+  width:100%;
+  height: 100%;
+  margin-bottom: 50px;
+} 
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5c5a5a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.screen a {
+color: white;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;;;
+  color: #f5f0f0;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
