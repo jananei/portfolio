@@ -7,6 +7,8 @@ import redux from './redux.png';
 import css from './css.png';
 import es6 from './es6.png';
 import html from './html.png';
+import mongodb from './mongodb.png';
+import nodejs from './nodejs.png';
 import reactbootstrap from './reactbootstrap.png';
 import bootstrap from './bootstrap.jpg';
 import { Jumbotron, Grid, Row, Col, Thumbnail } from 'react-bootstrap';
@@ -73,6 +75,25 @@ class Stack extends Component {
                 <Col xs={6} md={3}  className="justify-content-center">
                 <Thumbnail href="#" alt="171x180" src={bootstrap} />
                 <h3 className="text-white "> Bootstrap</h3>
+                </Col>
+
+      
+                </Row>
+                </Grid>
+                <Grid>
+                <Row  className="justify-content-center">
+                <Col xs={6} md={3}  className="justify-content-center">
+                <Thumbnail href="#" alt="171x180" src={nodejs} />
+                <h3 className="text-white">Node js</h3>
+                </Col>
+              
+                <Col xs={6} md={3}  className="justify-content-center">
+                <Thumbnail href="#" alt="171x180" src={mongodb} />
+                <h3 className="text-white">MongoDB</h3>
+                </Col>
+                <Col xs={6} md={3}  className="justify-content-center">
+                {/* <Thumbnail href="#" alt="171x180" src={mongodb} /> */}
+                <h3 className="text-white "> </h3>
                 </Col>
 
       

@@ -192,7 +192,7 @@ class Projects extends Component {
               <div className="card">
                 <div className="card-header">
                   Project 10
-  </div>
+                </div>
                 <div className="card-body">
                   <h5 className="card-title">ZOMATO</h5>
                   <div className="card-text">
@@ -204,6 +204,38 @@ class Projects extends Component {
               user should be provided with restaurant information using Zomato API</p>
                     <p className="mb-1 lead text-left"><u>Tools and technologies used:</u></p>
                     <p className=" text-left"> React js and redux, react bootstrap</p></div>
+
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  Project 11
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">API CREATION USING NODE JS</h5>
+                  <div className="card-text">
+
+                    <p className="mb-1 lead text-left"><u>Requirements</u></p>
+                    <p className="card-text mb-auto text-justify ">Create api and perform crud operations in employee details using 
+                    postman</p>
+                    <p className="mb-1 lead text-left"><u>Tools and technologies used:</u></p>
+                    <p className=" text-left"> Node js</p></div>
+
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header">
+                  Project 12
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title">API CREATION USING NODE JS AND MONGODB</h5>
+                  <div className="card-text">
+
+                    <p className="mb-1 lead text-left"><u>Requirements</u></p>
+                    <p className="card-text mb-auto text-justify ">Create api to add notes and perform crud operations in mongodb using 
+                    postman</p>
+                    <p className="mb-1 lead text-left"><u>Tools and technologies used:</u></p>
+                    <p className=" text-left"> Node js, Mongodb</p></div>
 
                 </div>
               </div>
